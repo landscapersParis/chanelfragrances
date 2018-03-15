@@ -26,7 +26,7 @@ is used to render the dom and interact with the payment detailed interfaces
 **Stripe**
 
 also provides a secure maner to deploy .gitignoring some secret key file going through the API once deployed
-To test in developpment environment after cloning the sources, the config/keys_dev.js must be created so the payment form can redirect to /charge page
+To test in developpment environment after cloning the sources, the **/config/keys_dev.js** must be created so the payment form can redirect to /charge page
 An account is also to be created unless one already exists and displays the publishable and secret
 like follows:
 
