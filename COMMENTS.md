@@ -6,7 +6,7 @@ The Term refactoring was taken in connsideration even if we used different Node 
 Proposing a different architecture is chosen to follow the guidline and consider different advices
 from communities ahead.
 
-**Stripe
+**Stripe**
 
 has been chosen instead of a core cart philosophy, to offer a more complete test and production possible build environments, to be put togeather in less time, for a very efficient freeware GUI that brings scalable customers datas.
 The suggestion is from e-commerce research-development context on behalf of landscapersParis start up growth. It is to follow schools teaching technologies of the kind.
@@ -19,7 +19,7 @@ is coded according to the latest syntax and philosophies.
 ##Handlebars 
 is used to render the dom and interact with the payment detailed interfaces
 
-**Stripe 
+**Stripe**
 
 also provides a secure maner to deploy .gitignoring some secret key file going through the API once deployed
 To test in developpment environment after cloning the sources, the config/keys_dev.js must be created so the payment form can redirect to /charge page
