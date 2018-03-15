@@ -1,0 +1,127 @@
+<section class="py-2index">
+	<div class="row">
+		<div class="col-md-6 text-center">
+			<br>
+			<h1 class="display-4 mt-5">
+				GARDENIA
+			</h1><p class="lead">The ultimate floral fragrance, intense and voluptuous, that blossoms with notes of Gardenia, a creamy heart and an imaginative trail. An absolutely feminine fragrance that captures the radiant light of summer.</p>
+			<form action="/charge" method="POST">
+			  <script
+			    src="https://checkout.stripe.com/checkout.js"
+			    class="stripe-button"
+			    data-key="{{stripePublishableKey}}"
+			    data-amount="19000"
+			    data-name="Gardenia"
+			    data-description="Parfum Gardenia"
+			    data-image="/img/chanelL.png"
+			    data-locale="auto"
+			    data-currency="eur">
+			  </script>
+			  <input type="hidden" name="chargeAmount" value="19000">
+			  <script>
+			  	// Hide default pay button
+			  		document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+			  </script>
+			  <button type="submit" class="btn btn-dark btn-lg">priceless 15ml</button>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<br>
+			<img src="/img/gardenia.png" alt="gardenia" class="img-fluid">
+		</div>
+		<br>
+		<div class="col-md-6 text-center">
+			<h1 class="display-4 mt-5">
+				GABRIELLE
+			</h1><p class="lead">Inspired by Gabrielle Chanel, the House of CHANEL perfumer Olivier Polge, working with the CHANEL Laboratory of Creation and Development of Perfumes, composed a solar flower based on a bouquet of 4 white flowers. </p>
+			<form action="/charge" method="POST">
+			  <script
+			    src="https://checkout.stripe.com/checkout.js"
+			    class="stripe-button"
+			    data-key="{{stripePublishableKey}}"
+			    data-amount="950000"
+			    data-name="Gabrielle"
+			    data-description="Parfum Gabrielle"
+			    data-image="/img/chanelL.png"
+			    data-locale="auto"
+			    data-currency="eur">
+			  </script>
+			  <input type="hidden" name="chargeAmount" value="950000">
+			  <script>
+			  	// Hide default pay button
+			  		document.getElementsByClassName('stripe-button-el')[1].style.display = 'none';
+			  </script>
+			  <button type="submit" class="btn btn-dark btn-lg">priceless 900ml</button>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<br>
+			<img src="/img/gabrielle.png" alt="gabrielle" class="img-fluid">
+		</div>
+		
+		<div class="col-md-6 text-center">
+			<h1 class="display-4 mt-5">
+				CHANCE
+			</h1>
+			<p class="lead">"It comes and goes, it never stays still... and you only have a few 
+			    seconds to seize your chance. It is unpredictable and appears when you least expect it, 
+			    but if you decide to seize it, anything is possible.
+			    "A chance came up, I seized it." Mademoiselle Chanel knew that her real chance was 
+				the one of her own creation, a state of mind, a way of being. "
+			</p>
+			<form action="/charge" method="POST">
+			  <script
+			    src="https://checkout.stripe.com/checkout.js"
+			    class="stripe-button"
+			    data-key="{{stripePublishableKey}}"
+			    data-amount="12000"
+			    data-name="Chance"
+			    data-description="Parfum Chance"
+			    data-image="/img/chanelL.png"
+			    data-locale="auto"
+			    data-currency="eur">
+			  </script>
+			  <input type="hidden" name="chargeAmount" value="12000">
+			  <script>
+			  	// Hide default pay button
+			  		document.getElementsByClassName('stripe-button-el')[2].style.display = 'none';
+			  </script>
+			  <button type="submit" class="btn btn-dark btn-lg">priceless 7,5ml</button>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<br>
+			<img src="/img/chance.png" alt="chance" class="img-fluid">
+		</div>
+		<div class="col-md-6 text-center">
+			<br>
+			<h1 class="display-4 mt-5">
+				CHANCE EAU DE VIE
+			</h1>
+			<p class="lead">"Chance Eau Vive is a radiant, vibrant, floral fragrance that is also great to wear throughout the year. We recommend trying each fragrance to determine which one best suits your needs. "</p>
+			<form action="/charge" method="POST">
+			  <script
+			    src="https://checkout.stripe.com/checkout.js"
+			    class="stripe-button"
+			    data-key="{{stripePublishableKey}}"
+			    data-amount="7600"
+			    data-name="Chance Eau de Vie"
+			    data-description="Parfum Chance Eau de Vie"
+			    data-image="/img/chanelL.png"
+			    data-locale="auto"
+			    data-currency="eur">
+			  </script>
+ 			  <input type="hidden" name="chargeAmount" value="7600">
+			  <script>
+			  	// Hide default pay button
+			  		document.getElementsByClassName('stripe-button-el')[3].style.display = 'none';
+			  </script>
+			  <button type="submit" class="btn btn-dark btn-lg">priceless 50ml</button>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<br>
+			<img src="/img/chance-eau-vive.png" alt="chance eau vive" class="img-fluid">
+		</div>
+	</div>
+</section

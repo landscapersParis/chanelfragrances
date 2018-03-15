@@ -1,0 +1,25 @@
+{
+  "name": "chanelfragrances",
+  "version": "1.0.0",
+  "description": "A test model dedicated to Karismatik Paris",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "keywords": [
+    "Priceless",
+    "Gallery"
+  ],
+  "author": "Vaiiho Nascimbene",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "json-server": "^0.12.1",
+    "nodemon": "^1.17.2",
+    "stripe": "^5.5.0"
+  }
+}
